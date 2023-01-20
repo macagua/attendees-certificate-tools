@@ -14,6 +14,6 @@ pip install -r requirements.txt
 For use dependencies, executing the following command:
 
 ```
-pdf_splitter.py "/path/to/file_name.pdf" "/path/to/output/dir"
+python pdf_splitter.py "/path/to/file_name.pdf" "/path/to/output/dir"
 ```
 

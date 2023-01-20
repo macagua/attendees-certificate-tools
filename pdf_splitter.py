@@ -48,5 +48,5 @@ if __name__ == "__main__":
     else:
         print("ERROR: Entered one (1) or more than two (2) arguments")
         print("SOLUTION: Enter the arguments correctly")
-        print('Example: pdf_splitter.py "file_name.pdf" "pdfs"')
+        print('Example: python pdf_splitter.py "file_name.pdf" "pdfs"')
 
