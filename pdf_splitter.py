@@ -1,13 +1,20 @@
+"""PDF File Splitter."""
 # https://stackoverflow.com/questions/490195/split-a-multi-page-pdf-file-into-multiple-pdf-files-with-python
 # https://stackoverflow.com/questions/14209214/reading-the-pdf-properties-metadata-in-python
 # https://stackoverflow.com/questions/59909520/extracting-the-keywords-from-pdf-metadata-in-python
 import os
 import sys
+
 from PyPDF2 import PdfFileReader, PdfFileWriter
 
 
 def pdf_splitter(path, output_dir):
+    """PDF File Splitter.
 
+    Args:
+        path (str): Full path to pdf file name to split.
+        output_dir (str): Full path to output dir for generate the pdf splitted.
+    """
     pdf = PdfFileReader(path)
 
     for page in range(pdf.getNumPages()):
@@ -49,4 +56,3 @@ if __name__ == "__main__":
         print("ERROR: Entered one (1) or more than two (2) arguments")
         print("SOLUTION: Enter the arguments correctly")
         print('Example: python pdf_splitter.py "file_name.pdf" "pdfs"')
-
