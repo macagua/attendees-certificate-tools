@@ -1,7 +1,12 @@
-"""PDF File Splitter."""
-# https://stackoverflow.com/questions/490195/split-a-multi-page-pdf-file-into-multiple-pdf-files-with-python
-# https://stackoverflow.com/questions/14209214/reading-the-pdf-properties-metadata-in-python
-# https://stackoverflow.com/questions/59909520/extracting-the-keywords-from-pdf-metadata-in-python
+"""PDF File Splitter.
+
+PDF File Splitter script
+
+Source data:
+  - https://stackoverflow.com/questions/490195/split-a-multi-page-pdf-file-into-multiple-pdf-files-with-python
+  - https://stackoverflow.com/questions/14209214/reading-the-pdf-properties-metadata-in-python
+  - https://stackoverflow.com/questions/59909520/extracting-the-keywords-from-pdf-metadata-in-python
+"""
 import os
 import sys
 
