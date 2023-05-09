@@ -16,11 +16,25 @@ For install dependencies, executing the following command:
 Use it
 ======
 
-For use dependencies, executing the following command:
+
+PDF Splitter
+------------
+
+For use it, executing the following command:
 
 ::
 
     python pdf_splitter.py "/path/to/file_name.pdf" "/path/to/output/dir"
+
+
+Send Certificate
+----------------
+
+For use it, executing the following command:
+
+::
+
+    python send_certificate_participants.py
 
 
 Tested it with
